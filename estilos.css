@@ -1,8 +1,13 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     margin: 0;
     font-family: monospace;
     font-size: 20px;
     font-weight: bold;
+    background-color: rgb(120, 120, 223);
 }
 
 .conteiner {
@@ -60,6 +65,41 @@ ul{
 .nav-link {
     display:flex;
    
+}
+
+.conteiner-video {
+    max-width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteiner-imagenes {
+    max-width: 99%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conteiner-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(75, 70, 70);
+    color: white;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+
 }
 
 .button-menu-toggle {
